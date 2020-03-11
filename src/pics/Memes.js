@@ -17,7 +17,7 @@ class Memes extends Component {
     let item = Math.floor(Math.random() * images.length)   // to randomly chose a picture from above.
     
     let mapping = images.map((image) => {                  // to loop over the images and make it %50x%50
-        return <img src={image} width="50%" height="50%"/>
+        return <img src={image} width="30%" height="30%"/>
     })
     console.log(mapping[item]);
 
